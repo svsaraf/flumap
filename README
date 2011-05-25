@@ -1,0 +1,17 @@
+Do you ever wonder why you get the flu every year even though you had it the year before (and supposedly built up immunity to it)?  The reason is that your immune system is dealing with slightly different bugs.  Different in the sense that their genomic sequences are somewhat different from virus to virus, and viruses have the ability to change their sequences radically.  I won’t get too much into it, but many of the most important changes that make influenza so hard to fight happen in two viral particle surface proteins, hemaglutinnin and neuraminidase.  (This is where the letters ‘H’ and ‘N’ come from in H1N1).
+
+ 
+
+For viruses like H1N1 swine flu, I thought it’d be interesting if we could keep track of the location of different virus diagnoses.  I’d be interested in knowing about the most recent data in my country or state.
+
+ 
+
+For instance, suppose a 5 year old boy caught swine flu 1 month ago and he lives 150 miles south of me, and a 47 year old woman caught it 2 weeks ago and she lives 10 miles south of me.  Maybe now would be the time to stop sharing drinks with strangers.
+
+ 
+
+That was a joke.  On a more serious note, we might even be able to comment on how “bad” or “good” the bug is (this is extraordinary simplification) by looking at how the sequence changes while the virus moves.
+
+ 
+
+Programmatically, we can assess the difference between two sequences by computing the Levenshtein distance.  We can retrieve viral data, conveniently, from a database called Genbank.  And we can map those sequences using the Google Maps API.
